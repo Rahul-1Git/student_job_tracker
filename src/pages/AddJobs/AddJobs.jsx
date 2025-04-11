@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./addjobs.css";
+import "./AddJobs.css";
 import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 const AddJobs = () => {

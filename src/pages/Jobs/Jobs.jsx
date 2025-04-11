@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./jobs.css";
+import "./Jobs.css";
 import { NavLink } from "react-router-dom";
 import { toast } from "react-hot-toast";
 import { BiSolidEdit } from "react-icons/bi";
