@@ -1,0 +1,97 @@
+.job {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+}
+
+.header select {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.alljob {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.item ul {
+  list-style-type: none;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.item ul:hover {
+  transform: scale(1.01);
+}
+
+.item li {
+  margin: 0.4rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.item a {
+  color: #0077cc;
+  text-decoration: underline;
+}
+
+.edit {
+  margin-top: 0.8rem;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.edit button {
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.edit button:first-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+.edit button:last-child {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit button:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+  .edit {
+    flex-direction: column;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .header select {
+    width: 100%;
+    max-width: 300px;
+  }
+}

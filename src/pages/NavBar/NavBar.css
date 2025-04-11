@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navBar_link {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 30px;
+  color: black;
+}
+button {
+  background-color: #2563eb; /* Blue background */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+}

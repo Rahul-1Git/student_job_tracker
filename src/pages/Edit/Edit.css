@@ -1,0 +1,69 @@
+.add {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.add h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #111827;
+  font-size: 1.3rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.section div {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.section label {
+  flex: 0 0 150px;
+  text-align: right;
+  font-weight: 500;
+  color: #374151;
+}
+
+.section input,
+.section select {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  background-color: white;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.section input:focus,
+.section select:focus {
+  border-color: #2563eb;
+}
+
+button {
+  align-self: center;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #1e40af;
+  transform: translateY(-1px);
+}
